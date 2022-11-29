@@ -1,0 +1,228 @@
+
+#maindiv{
+    padding: 25px;
+    width: 1400px;
+    height: 1000px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+}
+#grid{
+    width: 250px;
+    height: 150px;
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 80px;
+    box-shadow: 0.01rem 0.2rem 0.5rem 0.5rem rgba(0, 0, 0, 0.4);
+}
+#blue{
+    width: 250px;
+    height: 75px;
+    background-color: blue;
+    /* border: 2px solid black; */
+}
+#red{
+    width: 250px;
+    height: 75px;
+    background-color: red;
+    /* border: 2px solid black; */
+}
+#green{
+    background-color: green;
+    width: 250px;
+    height: 150px;
+}
+#circle{
+    width: 30%;
+    height: 50%;
+    border-radius: 50%;
+    background-color: red;
+    margin-top: -120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#japnese{
+    width: 50%;
+    height: 70%;
+    border-radius: 50%;
+    background-color: red;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#india1{
+    background-color: orange;
+    width: 250px;
+    height: 50px;
+}
+#india2{
+    width: 250px;
+    height: 50px;
+}
+#india3{
+    background-color: green;
+    width: 250px;
+    height: 50px;
+}
+#img1{
+    width: 50px;
+    height: 50px;
+    margin-left: 95px;
+}
+#indonesia1{
+    width: 250px;
+    height: 75px;
+    background-color: red;
+}
+#indonesia2{
+    width: 250px;
+    height: 75px;
+    background-color: aliceblue;
+}
+#italy{
+    display: flex;
+    flex-direction: row;
+}
+#italy1{
+    width: 83.3px;
+    height: 150px;
+    background-color: green;
+}
+#italy2{
+    width: 83.3px;
+    height: 150px;
+    background-color: white;
+}
+#italy3{
+    width: 83.3px;
+    height: 150px;
+    background-color: red;
+}
+#somalia{
+    background-color: rgb(62, 134, 229);
+    width: 250px;
+    height: 150px;
+}
+#img2{
+    width: 190px;
+    height: 150px;
+    margin-left: 30px;
+}
+#ireland{
+    display: flex;
+    flex-direction: row;
+}
+#ireland1{
+    width: 83.3px;
+    height: 150px;
+    background-color: green;
+}
+#ireland2{
+    width: 83.3px;
+    height: 150px;
+    background-color: white;
+}
+#ireland3{
+    width: 83.3px;
+    height: 150px;
+    background-color: orange;
+}
+#ukraine1{
+    width: 250px;
+    height: 75px;
+    background-color: rgb(9, 9, 104);
+}
+#ukraine2{
+    width: 250px;
+    height: 75px;
+    background-color: yellow;
+}
+#rica1{
+    width: 250px;
+    height: 25px;
+    background-color: rgb(2, 2, 116);
+}
+#rica2{
+    width: 250px;
+    height: 25px;
+    background-color: white;
+}
+#rica3{
+    width: 250px;
+    height: 50px;
+    background-color: red;
+}
+#rica4{
+    width: 250px;
+    height: 25px;
+    background-color: white;
+}
+#rica5{
+    width: 250px;
+    height: 25px;
+    background-color: rgb(2, 2, 116);
+}
+
+
+
+#canada{
+    display: flex;
+    flex-direction: row;
+}
+#canada1{
+    width: 83.3px;
+    height: 150px;
+    background-color: red;
+}
+#canada2{
+    width: 83.3px;
+    height: 150px;
+    background-color: red;
+}
+
+#img3{
+    width: 150px;
+    height: 120px;
+    /* margin-left: 30px; */
+    
+}
+
+
+
+
+#img4{
+    width: 150px;
+    height: 120px;
+    /* margin-bottom: 10000vh; */
+
+
+}
+
+
+
+#pakistan{
+    width: 250px;
+    height: 150px;
+    background-color: green;
+}
+
+
+#lebanon{
+    background-color: red;
+    width: 250px;
+    height: 20px;
+}
+#lebanonRed1{
+    width: 250px;
+    height: 115px;
+}
+#lebanonRed2{
+    background-color: red;
+    width: 250px;
+    height: 20px;
+}
+#img4{
+    width: 115px;
+    height: 115px;
+    margin-left: 55px;
+}

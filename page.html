@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main {
+            width: 70vw;
+            height: 90vh;
+            border: 2px solid black;
+            margin: auto;
+        }
+
+        #first {
+            width: 70vw;
+            height: 20vh;
+            border: 1px solid black;
+            background-color: rgb(77, 187, 41);
+        }
+
+        #second {
+            width: 70vw;
+            height: 50vh;
+            border: 1px solid black;
+        }
+
+        #sub {
+            width: 20vw;
+            height: 16vh;
+            /* border: 1px solid black; */
+            margin-top: 2vh;
+            margin-left: 2vw;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        #box1,
+        #box2,
+        #box3 {
+            width: 5vw;
+            height: 8vh;
+            /* border: 1px solid black; */
+            margin-top: 4vh;
+            border-radius: 8px;
+            background-color: hotpink;
+
+        }
+
+        #grid {
+            width: 20vw;
+            height: 50vh;
+            border: 1px solid black;
+            display: grid;
+            grid-template-rows: auto auto auto auto auto auto;
+            margin-left: 4px;
+
+
+        }
+
+        #ele2,
+        #ele3,
+        #ele4,
+        #ele5,
+        #ele6 {
+            width: 20vw;
+            height: 8vh;
+            border: 1px solid black;
+            background-color: yellow;
+
+        }
+
+        #ele1 {
+            width: 20vw;
+            height: 8vh;
+            border: 1px solid black;
+            background-color: hotpink;
+
+        }
+
+        #third {
+            background-color: hotpink;
+            width: 70vw;
+            height: 20vh;
+            position: fixed;
+            /* margin-top: 2vh; */
+        }
+
+        #circle {
+            /* margin-top: 10px; */
+            width: 6vw;
+            height: 5vh;
+            border: 1px solid red;
+            background-color: white;
+            border-radius: 50%;
+            margin: auto;
+            margin-top: 70px;
+            margin-left: 60vw;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="first">
+            <div id="sub">
+                <div id="box1"></div>
+                <div id="box2"></div>
+                <div id="box3"></div>
+            </div>
+        </div>
+        <div id="second">
+            <div id="grid">
+                <div id="ele1">
+                    <p>Home</p>
+                </div>
+                <div id="ele2">
+                    <p>Link1</p>
+                </div>
+                <div id="ele3">
+                    <p>Link2</p>
+                </div>
+                <div id="ele4">
+                    <p>Link3</p>
+                </div>
+                <div id="ele5">
+                    <p>Link4</p>
+                </div>
+                <div id="ele6">
+                    <p>Link5</p>
+                </div>
+            </div>
+        </div>
+        <div id="third">
+            <div id="circle"></div>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

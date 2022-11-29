@@ -1,0 +1,211 @@
+body{
+    background-color:   rgb(228, 223, 223);;
+}
+#mainDiv{
+    width: 70vw;
+    height: 200vh;
+    border: 15px solid  rgb(228, 223, 223);;
+    margin: auto;
+    background-color: #fff;
+}
+#topImage{
+    width: 130vh;
+    margin-left: 10px;
+}
+#optionDiv{
+    width: 70vw;
+    height: 5vh;
+    border: 3px solid rgb(228, 223, 223);
+    background-color: green;
+
+}
+
+
+#logoImg{
+    margin-top: -1pc;
+
+}
+#option{
+
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 10px; */
+    justify-content: space-around;
+    /* font-size: 2.5vh; */
+    margin-top: 1.5pc;
+    
+    color: white;
+
+
+}
+button{
+
+    padding: 8px 14px;
+    background: #fff;
+    border-radius: 18px;
+    border: 0;
+    margin-top: -15px;
+    /* margin-left: -2pc; */
+
+
+}
+
+
+
+#option2Div{
+    width: 70vw;
+    height: 5vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* border: 10px solid  rgb(219, 215, 215);; */
+
+
+}
+a{
+    color: white;
+    margin-top: 1pc;
+    
+}
+
+
+
+
+
+#grid{
+    width: 69vw;
+    height: 20vh;
+    /* border-color:2px solid black; */
+    border:10px solid rgb(228, 223, 223);
+    /* border: 2px solid white; */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    /* border-radius: 5%; */
+}
+
+#grid1{
+    width: 17.5vw;
+    height: 20vh;
+    border: 1px solid rgb(226, 221, 221);
+}
+
+#sideGrid1{
+    width: 16vw;
+    height: 155vh;
+    border:10px solid  rgb(228, 223, 223);;
+    margin-top: -1vh;
+    display: grid;
+    grid-template-columns: auto ;
+    grid-row: auto auto auto;
+    /* justify-content: space-around; */
+    /* border-radius: 5%; */
+}
+#sidegrid{
+    width: 15vw;
+    height: 15vh;
+    /* border: 1px solid black; */
+
+}
+h2{
+    color: green;
+    margin-left: 2pc;
+}
+p{
+    margin-top: -1.5vh;
+    margin-left: 5px;
+}
+
+hr{
+    width: 13vw;
+    color: rgb(185, 173, 173);
+}
+
+h3{
+    margin-left: 5px;
+}
+
+
+#middlegrid1{
+    width: 36vw;
+    height: 155vh;
+    border:10px solid rgb(228, 223, 223);
+
+    margin-top: -151vh;
+    margin-left: 30vh;
+    display: grid;
+    grid-template-columns: auto ;
+    grid-row: auto auto auto;
+
+    
+}
+
+#middle{
+    width: 35vw;
+    height: 52vh;
+    /* border: 2px solid rgb(234, 230, 230); */
+}
+
+#middleImg{
+    width: 25vw;
+    margin-left: 4vw;
+    height: 26vh;
+    margin-top: -2vh;
+}
+
+
+h4{
+    margin-left: 4pc;
+    margin-top: -1px;
+}
+
+h1{
+    margin-left: 4pc;
+}
+
+#sideRightGrid1{
+    width: 16vw;
+    height: 155vh;
+    /* border:3px solid gray; */
+    border:10px solid  rgb(228, 223, 223);
+
+    margin-top: -157vh;
+
+    margin-left: 68vh;
+    display: grid;
+    grid-template-columns: auto ;
+    grid-row: auto auto auto;
+
+
+
+}
+#sideRightGrid{
+    width: 15vw;
+    height: 15vh;
+    /* border: 1px solid black; */
+
+
+}
+
+#imageSide{
+    width: 13vw;
+    height: 15vh;
+    margin-left: 1pc;
+}
+
+table,td,tr{
+    margin-top: 5pc;
+    margin-left: 2pc;
+}
+#Hello{
+    margin-top: -3pc;
+}
+
+#icon{
+    width: 2pc;
+    height: 2pc;
+    margin-top: -1pc;
+    /* background-color: green; */
+    color: green;
+}

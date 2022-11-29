@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 400px;
+            height: 400px;
+            border: 1px solid #000;
+            margin:auto;
+        }
+        #login{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+        }
+        
+        
+
+    </style>
+</head>
+<body>
+    <div class="maindiv"></div>
+    
+
+    <button class="loginOrSignup"></button>
+    <script src="./insta_login.js"></script>
+    
+</body>
+</html> 
+
+
+
+
+
+const container = document.querySelector('.container');
+const Button = document.querySelector('.loginOrSignup')
+let loginBoolean = false
+const displayFunction = () => {
+    loginBoolean ? Button.innerHTML = `SignUp` : Button.innerHTML = `Login`
+
+    loginBoolean ? container.innerHTML += `<div id="Image">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png" />
+    </div><div id="login">
+    <input type="text" placeholder="Username">
+    <input type="password" placeholder="Password">
+    <button class="BTN">Login</button>
+    <div id="hr"><hr>OR<hr></div>
+    </div>`: container.innerHTML += `<div id="Image">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png" />
+    </div><div id="heading2">
+    <h2>Sign up to see photos and videos from your friends.</h2>
+    <button id="Button">Log in with Facebook</button></div>
+    <div id="hr"><hr>OR<hr></div>
+    <div id="login">
+    <input type="email" placeholder="Mobile Number or Email">
+    <input type="text" placeholder="Full Name">
+    <input type="text" placeholder="Username">
+    <input type="password" placeholder="password">
+    <button class="BTN">Signup</button>
+    <h3>By signing up, you agree to our Terms, Data Policy and Cookies Policy.
+    </div>`
+}
+displayFunction()
+Button.addEventListener('click', () => {
+    loginBoolean = !loginBoolean
+    container.innerHTML = ''
+    displayFunction()
+})
+
+
+
+
+
+login.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            width: 40vw;
+            height: 95vh;
+            border: 1px solid #000;
+            margin:auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 2vh;
+            box-shadow: 0rem 0rem 2rem 2rem grey;
+        }
+        .container{
+            width: 23vw;
+            height: auto;
+            border: 1px solid #000;
+            margin:auto;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            margin-top: 5vh;
+        }
+        #login{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            justify-content: space-around;
+
+        }
+        #Image{
+            width: 23vw;
+            height: 10vh;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #Button{
+            width: 20vw;
+            text-align: center;
+            margin-top: -1.5vh;
+        }
+        img{
+            width: 16vw;
+            text-align: center;
+            margin-top: -1vh;
+        }
+        input{
+            width: 19.5vw;
+            height: 5vh;
+            font-size: 1.5em;
+            margin-top: 1.5vh;
+        }
+        button{
+            width: 20vw;
+            height: 6vh;
+            background-color: rgb(57, 57, 235);
+            color: white;
+            font-size: 1.5em;
+            margin-top: 1.4vh;
+        }
+        #loginsignup{
+            width: 23vw;
+            height: 9vh;
+            border: 1px solid #000;
+            text-align: center;
+            margin: auto;
+            margin-top: 1vh;
+        }
+        h2,h3{
+            color: rgb(102, 96, 96);
+            margin-top: 0.8vh;
+        }
+        #hr,hr{
+            width: 19vw;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 1.5vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="container"></div>
+        <div id="loginsignup">
+            <button class="loginOrSignup"></button>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+    
+</body>
+</html>
+
+signup.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            width: 40vw;
+            height: 100vh;
+            border: 1px solid #000;
+            margin:auto;
+            display: flex;
+            flex-direction: column;
+        }
+        .container2{
+            width: 25vw;
+            height: 60vh;
+            border: 1px solid #000;
+            margin:auto;
+        }
+        #signup{
+            width: 25vw;
+            height: 60vh;
+            border: 1px solid black;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+
+        }
+        input{
+            width: 20vw;
+            height: 6vh;
+            font-size: 1.5em;
+        }
+        button{
+            width: 20.5vw;
+            height: 6.5vh;
+            font-size: 1.5em;
+            background-color: rgb(71, 71, 237);
+            color: white;
+        }
+        h1{
+            font-size: 3.5em;
+            margin-top: 1vh;
+        }
+        #heading2{
+            width: 25vw;
+            height: 10vh;
+            border: 1px solid black;
+            margin: auto;
+            text-align:center ;
+        }
+        #button{
+            width: 25vw;
+            height: 9vh;
+            border: 1px solid black;
+            margin: auto;
+            text-align:center ;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="container2">
+            <div id="heading2">
+                <h1>𝓘𝓷𝓼𝓽𝓪𝓰𝓻𝓪𝓶</h1>
+                <h2>Sign up to see photos and videos from your friends.</h2>
+                <button>Log in with Facebook</button></div>
+                <div id="signup">
+                <input type="email" placeholder="Mobile Number or Email">
+                <input type="text" placeholder="Full Name">
+                <input type="text" placeholder="Username">
+                <input type="password" placeholder="password">
+                <button class="BTN">Signup</button>
+            </div>
+        </div>
+        <div id="button">
+            <button class="loginOrSignup"><a id="a" href="">Login</a></button>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
+

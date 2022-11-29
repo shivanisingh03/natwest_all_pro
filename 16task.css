@@ -1,0 +1,156 @@
+#main{
+    width: 70vw;
+    height: 95vh;
+    border: 2px solid black;
+    margin: auto;
+}
+
+#first{
+    width: 70vw;
+    height: 8vh;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+#box1{
+    width: 30vw;
+    height: 4vh;
+    border: 2px solid black;
+    margin-top: 10px;
+    background-color: black;
+}
+
+#buttonDivision{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    justify-content: space-around;
+    font-size: 2.5vh;
+    margin-top: -1.5pc;
+    color: red;
+}
+
+#button2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    justify-content: space-around;
+    font-size: 2.5vh;
+    margin-top: 0.5pc;
+    color: red;
+
+
+}
+
+
+#box2{
+    width: 30vw;
+    height: 4vh;
+    border: 2px solid black;
+    margin-top: 10px;
+    background-color: black;
+}
+
+
+#second{
+    width: 50vw;
+    height: 35vh;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgba(128, 128, 128, 0.442);
+    border-radius: 2%;
+}
+
+#text{
+    width: 45vw;
+    height: 25vh;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 40px;
+
+}
+h1{
+    
+    margin-left: 4vh;
+    font-size: 2vw;
+    font-style:oblique;
+    margin-top: 4vh;
+}
+#pharaghraph{
+    margin-left: 4vh;
+    font-size: 1vw;
+    font-style:oblique;
+    margin-top: -3vh;
+}
+
+
+
+#third{
+    width: 50vw;
+    height: 25vh;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+#grid1,
+#grid2,
+#grid3 {
+    width: 15vw;
+    height: 25vh;
+    border: 2px solid black;
+}
+
+#align{
+    width: 140px;
+    color: gray;
+}
+
+#Company{
+    width: 15vw;
+    height: 5vh;
+    border: 2px solid black;
+    margin-top: 4vh;
+    margin-left: 20vh;
+
+
+
+}
+#line{
+    /* margin-top: ; */
+    margin-left: 10vw;
+    width: 50vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* h1{
+    
+    margin-left: 4vh;
+    font-size: 2vw;
+    font-style:oblique;
+}
+p{
+    margin-left: 4vh;
+    margin-top: -3vh;
+    font-size: 1.5pc;
+} */

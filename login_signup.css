@@ -1,0 +1,126 @@
+
+* {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#maindiv {
+    width: 960px;
+    height: 700px;
+    margin-top: 30px;
+    border-radius: 5px;
+    object-fit: cover;
+    box-shadow: 0.01rem 0.2rem 0.5rem 0.5rem rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: row;
+}
+
+#containerLeftSide {
+    width: 580px;
+    height: 700px;
+}
+
+#containerRightSide {
+    width: 460px;
+    height: 700px;
+    background-color: red;
+}
+
+#login {
+    width: 490px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 45px;
+    margin-top: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+h5 {
+    color: grey;
+    margin-top: -15px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#image {
+    width: 200px;
+    height: 80px;
+    margin-top: -8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+}
+
+#line1 {
+    width: 490px;
+    height: 220px;
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+input {
+    width: 330px;
+    height: 50px;
+    border-radius: 25px;
+    border-color: rgb(195, 191, 191);
+    background-color: rgb(231, 228, 228);
+    font-size: 20px;
+    text-align: center;
+    border: 2px;
+}
+
+button {
+    width: 200px;
+    height: 45px;
+    background-color: skyblue;
+    font-size: 20px;
+    border-radius: 25px;
+    border: 2px;
+}
+
+#textRightSide {
+    width: 400px;
+    height: 300px;
+    margin-top: 200px;
+    text-align: center;
+    color: white;
+}
+
+#btn {
+    background-color: white;
+    margin-top: 20px;
+}
+
+#line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+hr {
+    width: 150px;
+    background-color: gray;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button:hover {
+    background-color: rgb(138, 136, 136);
+}
+
+#btn:hover {
+    background-color: grey;
+}
